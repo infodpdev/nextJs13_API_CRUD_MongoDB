@@ -1,5 +1,5 @@
 //Forma simple
-import mongoose from "mongoose";
+/* import mongoose from "mongoose";
 
 mongoose.set("strictQuery", false)
 
@@ -7,12 +7,12 @@ const connectDB = async () => {
     return await mongoose.connect(process.env.MONGO_URI) 
 }
 
-export default connectDB
+export default connectDB */
 
 
 //Forma del sitio oficial de Mongoose
 
-/* import mongoose from 'mongoose'
+import mongoose from 'mongoose'
 
 const MONGODB_URI = process.env.MONGODB_URI
 
@@ -53,4 +53,4 @@ async function dbConnect() {
   return cached.conn
 }
 
-export default dbConnect */
+export default dbConnect
